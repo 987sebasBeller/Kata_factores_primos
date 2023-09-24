@@ -24,4 +24,9 @@ describe("factores primos de un numero",()=>{
         let factoresPrimos= new FactoresPrimos();
         expect(factoresPrimos.generar(8)).toEqual([2,2,2]);
     });
+    
+    it("devuelve los factores primos para el numero 9",()=>{
+        let factoresPrimos= new FactoresPrimos();
+        expect(factoresPrimos.generar(9)).toEqual([3,3]);
+    });
 });
