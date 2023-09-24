@@ -16,4 +16,8 @@ describe("factores primos de un numero",()=>{
         let factoresPrimos= new FactoresPrimos();
         expect(factoresPrimos.generar(4)).toEqual([2,2]);
     });
+    it("devuelve los factores primos para el numero 6",()=>{
+        let factoresPrimos= new FactoresPrimos();
+        expect(factoresPrimos.generar(6)).toEqual([2,3]);
+    });
 });
