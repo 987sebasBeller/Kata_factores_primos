@@ -4,4 +4,8 @@ describe("factores primos de un numero",()=>{
         let factoresPrimos= new FactoresPrimos();
         expect(factoresPrimos.generar(1)).toEqual([]);
     });
+    it("devuelve los factores primos para el numero 2",()=>{
+        let factoresPrimos= new FactoresPrimos();
+        expect(factoresPrimos.generar(2)).toEqual([2]);
+    });
 });
