@@ -2,7 +2,7 @@
 class FactoresPrimos{
     generar(numero){
         let lista=[];
-            if(numero%2==0){
+            while(numero%2==0){
                 lista.push(2);
                 numero/=2;
             }
