@@ -2,13 +2,10 @@
 class FactoresPrimos{
     generar(numero){
         let lista=[];
-            let divisor=2;
-            while(numero>1){
-                while(this.numerEsDivisibleEntre(numero,divisor)){
+            for(let divisor=2;numero>1;divisor++){
+                for(;this.numerEsDivisibleEntre(numero,divisor);numero/=divisor){
                     lista.push(divisor);
-                    numero/=divisor;
                 }
-                divisor++;
             }
         return lista;
     }
