@@ -8,4 +8,8 @@ describe("factores primos de un numero",()=>{
         let factoresPrimos= new FactoresPrimos();
         expect(factoresPrimos.generar(2)).toEqual([2]);
     });
+    it("devuelve los factores primos para el numero 3",()=>{
+        let factoresPrimos= new FactoresPrimos();
+        expect(factoresPrimos.generar(3)).toEqual([3]);
+    });
 });
