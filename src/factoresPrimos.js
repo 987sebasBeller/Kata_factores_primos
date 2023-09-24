@@ -10,9 +10,6 @@ class FactoresPrimos{
                 }
                 divisor++;
             }
-            if(numero>1){
-                lista.push(numero);
-            }
         return lista;
     }
     numerEsDivisibleEntre(numero,divisor){
